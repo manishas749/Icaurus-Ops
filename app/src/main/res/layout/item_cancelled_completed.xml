@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="checklistType"
+            type="com.icarus.enums.ChecklistType" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.DashboardViewModel" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.CancelledCompletedChecklistItems" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@{safeUnbox(item.checklistType) == safeUnbox(checklistType.Emergency.getValue()) ? @drawable/emergency_background : @drawable/white_background}"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.onCancelledCompletedChecklistItemClick(item)}"
+            android:paddingBottom="7dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/MaterialLightSubhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@{item.title}"
+                app:setChecklistTitleColor = "@{item.getChecklistSyncStatus()}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setAssignedChecklistTitleColor="@{item.getChecklistSyncStatus()}"
+                app:setEmergencyLabel="@{item.checklistType}"
+                tools:text="SN-MOP-06_09_03_01-Fuel Filters and Water Separators-Fuel..." />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/userName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginRight="39dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@{item.lastUpdatedBy}"
+                android:textColor="#de0079d2"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                tools:ignore="UnusedAttribute"
+                tools:text="Alan Bell" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/lastUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:lineSpacingExtra="11sp"
+                android:text="@string/last_updated"
+                android:textColor="@color/sub_title_text_color"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/lastUpdateValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="11sp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@{item.modified}"
+                android:textColor="@color/sub_title_text_color"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/lastUpdate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/lastUpdate"
+                app:layout_constraintTop_toTopOf="@+id/lastUpdate"
+                tools:text="17 Dec, 2018 15:14:40" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

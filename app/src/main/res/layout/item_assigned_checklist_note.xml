@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.icarus.models.ChecklistNotesItem" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="8dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif"
+            android:lineSpacingExtra="2sp"
+            android:padding="5dp"
+            android:text="@{item.comment}"
+            android:textColor="#373737"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun. The truth is the universe is a constantly changing, moving, some would say “living” thing because you just never. " />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/updatedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3sp"
+            android:padding="5dp"
+            android:textColor="#212121"
+            app:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/comment"
+            app:setHTML="@{String.format(@string/note_completed_by, item.userFullName)}"
+            tools:text="By Joe Palmer" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/updatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@{item.updatedAt}"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="12sp"
+            app:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#212121"
+            android:lineSpacingExtra="9sp"
+            app:layout_constraintTop_toBottomOf="@id/comment"
+            tools:text="30 August, 2019 10:05:17" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updatedAt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+
+        <variable
+            name="userItem"
+            type="com.icarus.models.UserItems" />
+
+        <variable
+            name="isEnabled"
+            type="Boolean"/>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkBoxSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/selected_radio"
+            android:checked="@{userItem.isSelected()}"
+            android:enabled="@{isEnabled}"
+            app:layout_constraintBottom_toBottomOf="@id/textView"
+            app:layout_constraintEnd_toStartOf="@id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textView"
+            tools:ignore="UnusedAttribute"
+            tools:width="50dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/MaterialLightSubhead"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/checkBoxSelect"
+            android:layout_toRightOf="@id/checkBoxSelect"
+            android:text="@{userItem.fullName}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/checkBoxSelect"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Anurag Purwar" />
+
+
+        <TextView
+            android:id="@+id/textViewRole"
+            style="@style/MaterialLightBody1Secondary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/checkBoxSelect"
+            android:layout_toRightOf="@id/checkBoxSelect"
+            android:text="@{userItem.getRole()}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/checkBoxSelect"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:text="Anurag Purwar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

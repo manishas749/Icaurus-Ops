@@ -1,0 +1,25 @@
+
+                                                       
+
+    
+
+                                          
+
+                 
+                           
+                                                                       
+           
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:padding="5dp"
+            android:textColor="#212121"
+            android:lineSpacingExtra="10sp"
+            tools:text="Status: In Progress"
+            android:tag="layout/item_workorder_detail_info_0"                                        
+            tools:ignore="UnusedAttribute"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"/>
+         

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                              
+                            
+
+                 
+                              
+                            
+
+                 
+                        
+                            
+
+                 
+                         
+                            
+
+                 
+                        
+                            
+
+                 
+                                  
+                            
+
+                                                
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_placeholder_captured_values_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/bottomView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/checklistInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="9dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/txtChecklistName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="10sp"
+                        android:tag="binding_1"
+                        android:textColor="@color/capture_data_text_color"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Checklist name" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtRoomHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:lineSpacingExtra="10sp"
+                        android:tag="binding_2"      
+                        android:textColor="@color/capture_data_text_color"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtChecklistName"
+                        tools:text="Rooms:" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtRooms"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="9dp"
+                        android:lineSpacingExtra="10sp"
+                        android:tag="binding_3"                                   
+                        android:textColor="@color/capture_data_text_color"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/txtRoomHeader"
+                        app:layout_constraintTop_toBottomOf="@+id/txtChecklistName"
+                        tools:text="Rooms" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtAssetsHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:lineSpacingExtra="10sp"
+                        android:tag="binding_4"      
+                        android:textColor="@color/capture_data_text_color"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtRooms"
+                        tools:text="Assets:" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtAssets"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="9dp"
+                        android:lineSpacingExtra="10sp"
+                        android:tag="binding_5"                                     
+                        android:textColor="@color/capture_data_text_color"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/txtAssetsHeader"
+                        app:layout_constraintTop_toBottomOf="@+id/txtRooms"
+                        tools:text="Assets" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.icarus.customviews.ExpandableNestedListView
+                    android:id="@+id/placeholderList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@color/white"
+                    android:childDivider="@color/black"
+                    android:dividerHeight="1dp"
+                    android:groupIndicator="@null"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/checklistInfo" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/placeholder_bottom_margin"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:letterSpacing="0.04"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/cancel"
+                android:textAllCaps="true"
+                android:textColor="@color/title_text_color"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/centreLine"
+                tools:ignore="UnusedAttribute"
+                tools:text="Cancel" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/centreLine"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:letterSpacing="0.04"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:tag="binding_6"                                                                                                                      
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@id/centreLine"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UnusedAttribute"
+                tools:layout_editor_absoluteX="206dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

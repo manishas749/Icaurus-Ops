@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                       
+
+    
+
+                                           
+
+                 
+                            
+                                                                       
+
+           
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/black" android:tag="layout-large-land/fragment_scan_qr_code_attribute_0" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/layoutScanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/ButtonTextLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="121dp"
+            android:text="@string/qr_code_scan_message" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtVerifyManual"
+            style="@style/ButtonTextLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="98dp"
+            tools:text="@string/qr_code_scan_trouble" />
+
+    </RelativeLayout>
+         

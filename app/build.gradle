@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    flavorDimensions.add("default")
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.icarus"
+        minSdkVersion 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        renderscriptSupportModeEnabled true
+        multiDexEnabled true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    dataBinding {
+        //noinspection DataBindingWithoutKapt
+        enabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        development {
+            applicationId 'com.icarusplus.icarus'
+            versionCode 1
+            versionName '1.0.0'
+            buildConfigField "String", "SERVERPATH", "\"https://api-test.icarusplus.com\""
+            resValue "string", "SALT", ""
+            buildConfigField "String", "FORGOTPASSWORDPATH", "\"\""
+        }
+        production {
+            applicationId 'com.icarusops.icarus'
+            versionCode 1
+            versionName '1.0.0'
+            buildConfigField "String", "SERVERPATH", "\"https://api.msft.icaruscontrol.com/\""
+            buildConfigField "String", "FORGOTPASSWORDPATH", "\"\""
+        }
+    }
+
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        // Sets Java compatibility to Java 8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+
+dependencies {
+    def lifecycle_version = "2.6.2"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-crashlytics:18.6.1'
+    implementation 'com.google.firebase:firebase-analytics:21.5.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation project(path: ':common')
+    implementation project(':network')
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    // Room components
+    implementation 'androidx.room:room-runtime:2.6.1'
+    annotationProcessor 'androidx.room:room-compiler:2.6.1'
+    androidTestImplementation 'androidx.room:room-testing:2.5.1'
+
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.8.6"
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-common-java8:2.8.6'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.6'
+
+
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    //Paging
+    implementation 'androidx.paging:paging-runtime:3.3.2'
+    api project(path: ':cropannotate')
+
+    //Barcode Scanning
+    implementation 'me.dm7.barcodescanner:zxing:1.9.13'
+    //multidex enable
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.work:work-runtime:2.8.1'
+    //Retrofit for network calls
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'io.swagger:swagger-annotations:1.5.21'
+    //HTML rendering
+    implementation 'org.sufficientlysecure:html-textview:3.8'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.7.1"
+    //Stetho
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
+//Flex box dependency for showing wrapped ppe and hazard icons
+    implementation 'com.google.android:flexbox:1.0.0'
+    // Adds shimmer effect on list for showing loading
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    implementation "androidx.core:core-splashscreen:1.0.1"
+}
+
+repositories {
+    mavenCentral()
+}
+

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.CheckListStepAttributeItems" />
+
+        <variable
+            name="attributeNo"
+            type="Integer" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.ChecklistExecutionViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/element_detail_attribute_right_margin"
+        android:layout_marginLeft="@dimen/element_detail_attribute_right_margin"
+        android:layout_marginTop="@dimen/attribute_margin_top"
+        android:layout_marginEnd="@dimen/element_detail_attribute_right_margin"
+        android:layout_marginRight="@dimen/element_detail_attribute_right_margin"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/editAttribute"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circular_border_circle_grey"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_edit" />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="-4sp"
+            android:textColor="@color/input__label"
+            android:textSize="@dimen/attribute_label_size"
+            android:textStyle="normal"
+            android:visibility="@{TextUtils.isEmpty(item.label) ? View.GONE:View.VISIBLE}"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toStartOf="@id/editAttribute"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setCompactHtml="@{String.format(@string/attribute_label_bullet, attributeNo, item.label)}"
+            tools:text="1. Verify the attributes by putting valid credentials" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="@dimen/attribute_desc_margin_top"
+            android:ellipsize="end"
+            android:lineSpacingExtra="-4sp"
+            android:textColor="@color/attribute_description"
+            android:textSize="@dimen/attribute_desc_size"
+            android:textStyle="italic"
+            android:visibility="@{TextUtils.isEmpty(item.description) ? View.GONE:View.VISIBLE}"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toStartOf="@id/editAttribute"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtLabel"
+            app:setCompactHtml="@{item.description}"
+            tools:text="description" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userNameInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            app:errorEnabled="true"
+            app:errorText="@{viewModel.qaUserNameError}"
+            app:errorTextAppearance="@style/MyErrorText"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescription">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_username"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/input_Label"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            app:errorEnabled="true"
+            app:errorText="@{viewModel.qaPasswordError}"
+            app:errorTextAppearance="@style/MyErrorText"
+            app:layout_constraintTop_toBottomOf="@+id/userNameInputLayout">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/input_Label"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtBarcodeScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/or_scan_qr_code_for_qa_verification"
+            android:textColor="@color/input_Label"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:fontFamily="sans-serif"
+            app:layout_constraintTop_toBottomOf="@id/passwordInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_bg_green"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:letterSpacing="0.04"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout"
+            tools:ignore="UnusedAttribute"
+            tools:text="Submit"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

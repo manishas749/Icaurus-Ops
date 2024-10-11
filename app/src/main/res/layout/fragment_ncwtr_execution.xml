@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.ChecklistDetailItems" />
+
+        <variable
+            name="constants"
+            type="com.icarus.constants.Constants" />
+
+        <import type="com.icarus.util.ImageLoader.ImageType" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.ChecklistExecutionViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtNCWTitle"
+            style="@style/MaterialLightSubhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setNCWTitle="@{item}" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNCWTitle">
+
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewEquipments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="@{item.isNCW() ? View.VISIBLE : View.INVISIBLE}" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checklist_detail_text_size"
+                        android:visibility="@{!item.isResource() ? View.VISIBLE : View.GONE}"
+                        app:setCompactHtml="@{item.description}"
+                        tools:text="Item Detail"
+                        tools:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/markComplete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_bg_green"
+                        android:enabled="@{viewModel.isButtonEnabled}"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:letterSpacing="0.04"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:text="@{viewModel.getBtnText()}"
+                        android:textColor="@{viewModel.isButtonEnabled ? @color/white : @color/disable_button_text}"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:visibility="@{viewModel.isButtonVisible ? View.VISIBLE : View.GONE}"
+                        tools:ignore="UnusedAttribute" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,33 @@
+
+                                                   
+
+    
+
+                 
+                                          
+                                                                          
+
+                 
+                            
+                                                                              
+           
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_report_image"
+        android:drawableLeft="@android:drawable/ic_menu_report_image"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="start|center_vertical"
+        android:lineSpacingExtra="4sp"
+        android:tag="layout/item_workorder_attachment_0"                               
+                                                                      
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:ignore="UnusedAttribute"
+        tools:text="Screen Shot 2017-03-17 at 8.27.38.png"   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"/>
+
+    <!--android:onClick="@{(v) -> item.onAttachmentClick(v, item)}"-->
+         

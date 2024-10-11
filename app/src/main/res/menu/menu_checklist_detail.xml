@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.icarus.activity.ChecklistDetailActivity">
+    <item
+        android:id="@+id/action_emergency"
+        android:icon="@drawable/ic_siren"
+        android:orderInCategory="100"
+        android:title="@string/emergency"
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_siren"
+        android:orderInCategory="100"
+        android:title="@string/emergency"
+        app:showAsAction="never"/>-->
+
+
+    <item
+        android:id="@+id/suggestion"
+        android:icon="@drawable/ic_siren"
+        android:title="@string/suggestion" />
+
+    <item
+        android:id="@+id/assign"
+        android:title="@string/assign" />
+    <item
+        android:id="@+id/view_report"
+        android:title="@string/view_report" />
+
+    <item
+        android:id="@+id/all_capture_data"
+        android:title="@string/data_captured"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/pending_elements"
+        android:title="@string/pending_elements" />
+    <item
+        android:id="@+id/workorder"
+        android:title="@string/create_work_order" />
+
+    <item
+        android:id="@+id/notes"
+        android:title="@string/notes" />
+    <item
+        android:id="@+id/pause_checklist"
+        android:title="@string/pause_checklist" />
+    <item
+        android:id="@+id/cancel_checklist"
+        android:title="@string/cancel_checklist" />
+
+
+</menu>

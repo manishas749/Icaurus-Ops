@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="filterListType"
+            type="com.icarus.enums.FilterListType" />
+
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.DashboardViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick='@{() -> viewModel.detectAndPerformFilterClick(filterListType, safeUnbox(position))}'>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkBoxSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/selected_radio"
+            android:checked="@{viewModel.detectFilterList(filterListType, safeUnbox(position)).selected}"
+            app:layout_constraintBottom_toBottomOf="@id/textView"
+            app:layout_constraintEnd_toStartOf="@id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textView"
+            tools:ignore="UnusedAttribute"
+            android:onClick='@{() -> viewModel.detectAndPerformFilterClick(filterListType, safeUnbox(position))}'
+            tools:width="50dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/FormsRadioLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/checkBoxSelect"
+            android:layout_toRightOf="@id/checkBoxSelect"
+            android:text="@{viewModel.detectFilterList(filterListType, safeUnbox(position)).title}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/checkBoxSelect"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Anurag Purwar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

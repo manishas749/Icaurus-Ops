@@ -1,0 +1,872 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:142:9-150:20
+	android:grantUriPermissions
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:146:13-47
+	android:authorities
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:144:13-60
+	android:exported
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:145:13-37
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:143:13-62
+manifest
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a3a4d0be7f2508cd5fd418511305037\databinding-adapters-4.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\bca7d2f4fa094359ad91fe35ea25a0e6\databinding-runtime-4.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d403f0dd420c37854e7ff7d022914e7e\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:database] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\database\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\142a70a2fdeee3d454e1fb2a39e65d77\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\45d8b74ee4b4c1fbbbd2405e151b980d\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3042a458478d07483ca415a089453263\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\21890300407e3866f9167becb3349c80\jetified-zxing-1.9.13\AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3dbab0b61335c7ae28b494c4badb46d0\jetified-core-1.9.13\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\5257e0ebfc43091a33594a9af51d59cc\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a5160222acac865cc71dac155f47e0df\paging-runtime-2.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dc29b8fc832ba1e87a5105272c0302d\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\80a33a9b1b383bcd3b9ae2656f92be82\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a8f480b5f8ba93521c3dae0471a341d\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\98cb956eef054cd73a05a2aa3aa4666c\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.sufficientlysecure:html-textview:3.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7f6d8a19854a6c1cc455c46ca90d0d87\jetified-html-textview-3.8\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6cb86c491cb60783ddc3438af1e11e5e\jetified-glide-4.10.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\04c8b56290f71d58651c66da30e848b2\jetified-stetho-okhttp3-1.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\78474a9116fed29bc955c7fc2084d767\jetified-stetho-1.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\9e04e228486d74bf49cf2d2f0316b493\jetified-flexbox-1.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a7758dc6814c4f676e216200858614c3\jetified-shimmer-0.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2b09fcdcbcda8f76d0e9980ed6bbc4ca\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\60190ce5897f80d75effcaa3882b216d\jetified-library-2.4.1\AndroidManifest.xml:3:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\46a38722d9eeb2f21565a7239b9ee963\jetified-viewbinding-4.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7abeb017abbf7f2d0af03c6aef1d29b8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8e6cded4af6e2d794bcb53f0a19cb1e1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d5585057e562878465fe9c57bab47ec6\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\174529a8cd3a4d7c6ac82e90d3eaa804\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\f6610c1152cb03efc0888e0154f1a043\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d556c9d77fb0b8c8cf10db1fdc3bfe82\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b458f765eac20539bc6db054ab48780f\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\06c976da55e16d495da64197e9d1a1b3\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0ac506c477dced7334a10663860c7162\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d0cd59c1f0f532eae88597a7ebfcfe0f\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\61f9d2456af8a14e4ac57623afd09af9\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a6aed30c8d3160e766ad06d5558d38a1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b596bbfb7ad7a042a9c411cdabbe4ad7\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c6b1945aa82b7d3bb92bff12b603472f\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\41d5383e9478ecbf14686a5f1d50e3e7\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2488ac96afd92566482ab64a7a298cfe\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4f7d988df39728008a2832c1745ed74b\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0055d775cf195176086bba1913211bbc\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3f9241a2075b423029c87a989d3ae826\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4c8d9fc8084a0fa13295c37c64b6b24e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2acf190e7cdfc840c14120027fbfa4f2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c765b59d668b9e8d94b35b12e2197dcd\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dbd0e9bc4e1df5ad825311748e9991c\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2a345da46d884f1bae27811623eca2a4\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e8aca406f9bfe1ed5ef7dc6d02bae0e7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7ec3e874aa185da6a6eb0dfb28cb2a42\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\16460042dde7e1b69ef0f0c828ff9f10\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2d6ce318773d619a8afc0381c489ec9d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\541b0adc504db0f558e10a21b482a9f5\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b9cface037d3e2704779d90cef123060\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a2925f5e0c444f59a0f29efbdbf6fff7\jetified-gifdecoder-4.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c8d60329ddee5864338d5171b0681ab4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3a9b9f324f2bf5a92bfff6f22e49b3ba\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\979d5752210e8cddb9136e5d2927d2c1\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\64bf03ea6fe24c5b56b02306acea2bee\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\df488911378d54e2b8ff83c5551b2787\jetified-rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8909123a4e22be3a402c86ebcd0e0d5f\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:22:1-33:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+	package
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:4:5-25
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:1-153:12
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:8:5-81
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:9:22-62
+queries
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:10:5-14:15
+intent
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:11:9-13:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:12:13-73
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:12:21-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:16:5-68
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:17:5-104
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:17:22-101
+application
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:18:5-151:19
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-24:19
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d403f0dd420c37854e7ff7d022914e7e\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d403f0dd420c37854e7ff7d022914e7e\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-20:19
+MERGED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-20:19
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-16:43
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-16:43
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\142a70a2fdeee3d454e1fb2a39e65d77\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\142a70a2fdeee3d454e1fb2a39e65d77\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\21890300407e3866f9167becb3349c80\jetified-zxing-1.9.13\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\21890300407e3866f9167becb3349c80\jetified-zxing-1.9.13\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3dbab0b61335c7ae28b494c4badb46d0\jetified-core-1.9.13\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3dbab0b61335c7ae28b494c4badb46d0\jetified-core-1.9.13\AndroidManifest.xml:11:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a8f480b5f8ba93521c3dae0471a341d\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a8f480b5f8ba93521c3dae0471a341d\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [org.sufficientlysecure:html-textview:3.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7f6d8a19854a6c1cc455c46ca90d0d87\jetified-html-textview-3.8\AndroidManifest.xml:10:5-20
+MERGED from [org.sufficientlysecure:html-textview:3.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7f6d8a19854a6c1cc455c46ca90d0d87\jetified-html-textview-3.8\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6cb86c491cb60783ddc3438af1e11e5e\jetified-glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6cb86c491cb60783ddc3438af1e11e5e\jetified-glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\04c8b56290f71d58651c66da30e848b2\jetified-stetho-okhttp3-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\04c8b56290f71d58651c66da30e848b2\jetified-stetho-okhttp3-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\78474a9116fed29bc955c7fc2084d767\jetified-stetho-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\78474a9116fed29bc955c7fc2084d767\jetified-stetho-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4c8d9fc8084a0fa13295c37c64b6b24e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4c8d9fc8084a0fa13295c37c64b6b24e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a2925f5e0c444f59a0f29efbdbf6fff7\jetified-gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a2925f5e0c444f59a0f29efbdbf6fff7\jetified-gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:31:5-20
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:28:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:22:9-41
+	tools:ignore
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:29:9-64
+	android:roundIcon
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:19:9-36
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:27:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:24:9-69
+	android:fullBackupOnly
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:20:9-39
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:23:9-45
+activity#com.icarus.activities.SplashActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:33:13-45
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:31:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.icarus.activities.LocationChangeActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:41:9-45:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:44:13-52
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:43:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:42:13-62
+activity#com.icarus.activities.LoginActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:47:9-49:59
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:48:13-53
+activity#com.icarus.activities.DashboardActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:51:9-67:20
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:54:13-58
+	android:launchMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:55:13-43
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:53:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:56:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:52:13-57
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:57:13-59:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:58:17-71
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:58:25-68
+meta-data#android.app.default_searchable
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:61:13-63:65
+	android:value
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:63:17-62
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:62:17-62
+meta-data#android.app.searchable
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:64:13-66:55
+	android:resource
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:66:17-52
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:65:17-54
+activity#com.icarus.activities.TermsAndConditionsActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:69:9-73:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:72:13-57
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:71:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:70:13-66
+activity#com.icarus.activities.ChecklistDetailListingActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:75:9-79:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:78:13-29
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:79:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:76:13-70
+activity#com.icarus.workorder.activities.WorkorderActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:80:9-85:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:83:13-46
+	android:launchMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:84:13-43
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:82:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:81:13-67
+activity#com.icarus.activities.ChecklistReportActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:86:9-101:20
+	android:launchMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:89:13-43
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:88:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:87:13-63
+activity#com.icarus.workorder.activities.WorkOrderDetailActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:102:9-105:59
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:104:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:105:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:103:13-73
+activity#com.icarus.workorder.activities.WorkOrderCreateActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:106:9-109:54
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:108:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:109:13-51
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:107:13-73
+activity#com.icarus.workorder.activities.WorkOrderCompleteActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:110:9-113:54
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:112:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:113:13-51
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:111:13-75
+activity#com.icarus.activities.ChecklistExecutionActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:114:9-119:62
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:118:13-29
+	android:windowSoftInputMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:117:13-52
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:116:13-62
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:119:13-59
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:115:13-66
+activity#com.icarus.activities.WebViewActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:120:9-123:59
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:122:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:121:13-55
+activity#com.icarus.activities.PlaceholderCaptureListActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:124:9-128:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:127:13-29
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:126:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:125:13-70
+activity#com.icarus.activities.AddNotesActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:129:9-134:59
+	android:launchMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:133:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:132:13-55
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:131:13-59
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:134:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:130:13-56
+activity#com.icarus.activities.AllCaptureDataActivity
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:136:9-140:59
+	android:label
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:139:13-29
+	android:configChanges
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:138:13-74
+	android:theme
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:140:13-56
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:137:13-62
+uses-sdk
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a3a4d0be7f2508cd5fd418511305037\databinding-adapters-4.0.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a3a4d0be7f2508cd5fd418511305037\databinding-adapters-4.0.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\bca7d2f4fa094359ad91fe35ea25a0e6\databinding-runtime-4.0.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\bca7d2f4fa094359ad91fe35ea25a0e6\databinding-runtime-4.0.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d403f0dd420c37854e7ff7d022914e7e\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d403f0dd420c37854e7ff7d022914e7e\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:database] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\database\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:database] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\database\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\142a70a2fdeee3d454e1fb2a39e65d77\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\142a70a2fdeee3d454e1fb2a39e65d77\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\45d8b74ee4b4c1fbbbd2405e151b980d\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\45d8b74ee4b4c1fbbbd2405e151b980d\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3042a458478d07483ca415a089453263\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3042a458478d07483ca415a089453263\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\21890300407e3866f9167becb3349c80\jetified-zxing-1.9.13\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\21890300407e3866f9167becb3349c80\jetified-zxing-1.9.13\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3dbab0b61335c7ae28b494c4badb46d0\jetified-core-1.9.13\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3dbab0b61335c7ae28b494c4badb46d0\jetified-core-1.9.13\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\5257e0ebfc43091a33594a9af51d59cc\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\5257e0ebfc43091a33594a9af51d59cc\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a5160222acac865cc71dac155f47e0df\paging-runtime-2.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a5160222acac865cc71dac155f47e0df\paging-runtime-2.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dc29b8fc832ba1e87a5105272c0302d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dc29b8fc832ba1e87a5105272c0302d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\80a33a9b1b383bcd3b9ae2656f92be82\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\80a33a9b1b383bcd3b9ae2656f92be82\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a8f480b5f8ba93521c3dae0471a341d\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7a8f480b5f8ba93521c3dae0471a341d\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\98cb956eef054cd73a05a2aa3aa4666c\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\98cb956eef054cd73a05a2aa3aa4666c\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [org.sufficientlysecure:html-textview:3.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7f6d8a19854a6c1cc455c46ca90d0d87\jetified-html-textview-3.8\AndroidManifest.xml:6:5-8:41
+MERGED from [org.sufficientlysecure:html-textview:3.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7f6d8a19854a6c1cc455c46ca90d0d87\jetified-html-textview-3.8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6cb86c491cb60783ddc3438af1e11e5e\jetified-glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6cb86c491cb60783ddc3438af1e11e5e\jetified-glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\04c8b56290f71d58651c66da30e848b2\jetified-stetho-okhttp3-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\04c8b56290f71d58651c66da30e848b2\jetified-stetho-okhttp3-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\78474a9116fed29bc955c7fc2084d767\jetified-stetho-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\78474a9116fed29bc955c7fc2084d767\jetified-stetho-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\9e04e228486d74bf49cf2d2f0316b493\jetified-flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\9e04e228486d74bf49cf2d2f0316b493\jetified-flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a7758dc6814c4f676e216200858614c3\jetified-shimmer-0.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a7758dc6814c4f676e216200858614c3\jetified-shimmer-0.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2b09fcdcbcda8f76d0e9980ed6bbc4ca\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2b09fcdcbcda8f76d0e9980ed6bbc4ca\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\60190ce5897f80d75effcaa3882b216d\jetified-library-2.4.1\AndroidManifest.xml:8:5-43
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\60190ce5897f80d75effcaa3882b216d\jetified-library-2.4.1\AndroidManifest.xml:8:5-43
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\46a38722d9eeb2f21565a7239b9ee963\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\46a38722d9eeb2f21565a7239b9ee963\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7abeb017abbf7f2d0af03c6aef1d29b8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7abeb017abbf7f2d0af03c6aef1d29b8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8e6cded4af6e2d794bcb53f0a19cb1e1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8e6cded4af6e2d794bcb53f0a19cb1e1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d5585057e562878465fe9c57bab47ec6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d5585057e562878465fe9c57bab47ec6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\174529a8cd3a4d7c6ac82e90d3eaa804\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\174529a8cd3a4d7c6ac82e90d3eaa804\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\f6610c1152cb03efc0888e0154f1a043\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\f6610c1152cb03efc0888e0154f1a043\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d556c9d77fb0b8c8cf10db1fdc3bfe82\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d556c9d77fb0b8c8cf10db1fdc3bfe82\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b458f765eac20539bc6db054ab48780f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b458f765eac20539bc6db054ab48780f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\06c976da55e16d495da64197e9d1a1b3\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\06c976da55e16d495da64197e9d1a1b3\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0ac506c477dced7334a10663860c7162\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0ac506c477dced7334a10663860c7162\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d0cd59c1f0f532eae88597a7ebfcfe0f\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\d0cd59c1f0f532eae88597a7ebfcfe0f\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\61f9d2456af8a14e4ac57623afd09af9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\61f9d2456af8a14e4ac57623afd09af9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a6aed30c8d3160e766ad06d5558d38a1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a6aed30c8d3160e766ad06d5558d38a1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b596bbfb7ad7a042a9c411cdabbe4ad7\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b596bbfb7ad7a042a9c411cdabbe4ad7\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c6b1945aa82b7d3bb92bff12b603472f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c6b1945aa82b7d3bb92bff12b603472f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\41d5383e9478ecbf14686a5f1d50e3e7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\41d5383e9478ecbf14686a5f1d50e3e7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2488ac96afd92566482ab64a7a298cfe\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2488ac96afd92566482ab64a7a298cfe\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4f7d988df39728008a2832c1745ed74b\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4f7d988df39728008a2832c1745ed74b\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e83e390a2e8789dc7f893b9ada3caf47\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0055d775cf195176086bba1913211bbc\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\0055d775cf195176086bba1913211bbc\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3f9241a2075b423029c87a989d3ae826\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3f9241a2075b423029c87a989d3ae826\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4c8d9fc8084a0fa13295c37c64b6b24e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\4c8d9fc8084a0fa13295c37c64b6b24e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2acf190e7cdfc840c14120027fbfa4f2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2acf190e7cdfc840c14120027fbfa4f2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c765b59d668b9e8d94b35b12e2197dcd\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c765b59d668b9e8d94b35b12e2197dcd\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dbd0e9bc4e1df5ad825311748e9991c\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\6dbd0e9bc4e1df5ad825311748e9991c\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2a345da46d884f1bae27811623eca2a4\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2a345da46d884f1bae27811623eca2a4\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e8aca406f9bfe1ed5ef7dc6d02bae0e7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e8aca406f9bfe1ed5ef7dc6d02bae0e7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7ec3e874aa185da6a6eb0dfb28cb2a42\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\7ec3e874aa185da6a6eb0dfb28cb2a42\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\16460042dde7e1b69ef0f0c828ff9f10\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\16460042dde7e1b69ef0f0c828ff9f10\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2d6ce318773d619a8afc0381c489ec9d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2d6ce318773d619a8afc0381c489ec9d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\541b0adc504db0f558e10a21b482a9f5\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\541b0adc504db0f558e10a21b482a9f5\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b9cface037d3e2704779d90cef123060\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\b9cface037d3e2704779d90cef123060\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a2925f5e0c444f59a0f29efbdbf6fff7\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\a2925f5e0c444f59a0f29efbdbf6fff7\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c8d60329ddee5864338d5171b0681ab4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c8d60329ddee5864338d5171b0681ab4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3a9b9f324f2bf5a92bfff6f22e49b3ba\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\3a9b9f324f2bf5a92bfff6f22e49b3ba\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\979d5752210e8cddb9136e5d2927d2c1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\979d5752210e8cddb9136e5d2927d2c1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\64bf03ea6fe24c5b56b02306acea2bee\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\64bf03ea6fe24c5b56b02306acea2bee\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\df488911378d54e2b8ff83c5551b2787\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\df488911378d54e2b8ff83c5551b2787\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8909123a4e22be3a402c86ebcd0e0d5f\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8909123a4e22be3a402c86ebcd0e0d5f\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e6046cf519b14b5e25a32728b7a19eab\jetified-crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\2e8a29cd3784ef786a355fad068d8019\jetified-beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\67f29402d1a8ffdaceb2f4d81e3112f7\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\c3003c852ae24e6ba9ea41dc48524aee\jetified-fabric-1.4.8\AndroidManifest.xml:27:5-43
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:14:9-60
+	android:targetSdkVersion
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:147:13-149:54
+	android:resource
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:149:17-51
+	android:name
+		ADDED from C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\app\src\main\AndroidManifest.xml:148:17-67
+activity#c.anurag.cropannotate.crop.activity.CropImageActivity
+ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-17:52
+	android:screenOrientation
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-81
+activity#c.anurag.cropannotate.annotations.activity.PhotoEditorActivity
+ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-23:67
+	android:label
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-45
+	android:windowSoftInputMode
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-64
+	android:configChanges
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-59
+	android:theme
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-61
+	android:name
+		ADDED from [:cropannotate] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\cropannotate\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-90
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:common] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+meta-data#aia-compat-api-min-version
+ADDED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-19:33
+	android:value
+		ADDED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-30
+	android:name
+		ADDED from [:network] C:\Users\UCodeSoft\Desktop\icarus\kd_worker_kotlin_conversion\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-54
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1a34fd3093ea8202edcc6a523fdb5d57\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.4.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\8091be28bb88e090da8044e9305106eb\work-runtime-2.4.0\AndroidManifest.xml:138:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\e7a670cb295fae04078574cdce285704\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\ca9cec21af432c8e4bb5e88f32ec18bb\jetified-okhttp3-integration-4.7.1\AndroidManifest.xml:12:13-84
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\UCodeSoft\AndroidStudioProjects\FirestorePagination\.gradle\caches\transforms-2\files-2.1\1d0c460faf603c97d6bcf0f94b776085\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

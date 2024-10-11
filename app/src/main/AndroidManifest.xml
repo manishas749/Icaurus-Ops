@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.icarus">
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+    <!-- Required to act as a custom watch face. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required for complications to receive complication data and open the provider chooser. -->
+    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
+    <application
+        android:allowBackup="false"
+        android:fullBackupOnly="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".base.BaseApplication"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute"
+        android:fullBackupContent="@xml/old_backup_rules"
+        android:dataExtractionRules="@xml/new_backup_rules">
+        <activity
+            android:exported="true"
+            android:name=".activities.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:exported="false"
+            android:name=".activities.PermissionsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/permission_required"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:exported="false"
+            android:name=".activities.LocationChangeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/select_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:exported="false"
+
+            android:name=".activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:exported="false"
+
+            android:name=".activities.DashboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/my_assigned_checklist"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".activities.DashboardActivity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searcheable" />
+        </activity>
+
+        <activity
+            android:exported="false"
+
+            android:name=".activities.TermsAndConditionsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/terms_and_conditions"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:exported="false"
+
+            android:name=".activities.ChecklistDetailListingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:exported="false"
+            android:name=".workorder.activities.WorkorderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/workorder"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ChecklistReportActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".workorder.activities.WorkorderActivity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searcheable_workorder" />
+        </activity>
+        <activity
+            android:name=".workorder.activities.WorkOrderDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false"
+            />
+        <activity
+            android:name=".workorder.activities.WorkOrderCreateActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.Dialog"
+            android:exported="false"
+            />
+        <activity
+            android:name=".workorder.activities.WorkOrderCompleteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.Dialog"
+            android:exported="false"
+            />
+        <activity
+            android:exported="false"
+            android:name=".activities.ChecklistExecutionActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label=""
+            android:theme="@style/ChecklistExecutionTheme" />
+        <activity
+            android:exported="false"
+            android:name=".activities.WebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:exported="false"
+            android:name=".activities.PlaceholderCaptureListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:exported="false"
+            android:name=".activities.AddNotesActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:exported="false"
+            android:name=".activities.AllCaptureDataActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

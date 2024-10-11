@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                                                
+
+                                           
+
+                 
+                                  
+                                                           
+           
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="13dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical" android:tag="layout/item_qr_scan_attribute_detail_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"                     
+            android:textColor="#2a2a2a"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            tools:text="CP-N1/N4-1B " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtExecutionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="#007d12"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:fontFamily="sans-serif"
+            android:tag="binding_2"                               
+            tools:text="Verified" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTitleReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/reason"
+            android:textColor="#242424"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            tools:visibility="gone"
+            android:textStyle="normal"
+            android:tag="binding_3"                                                                          
+            app:fontFamily="sans-serif-medium" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:lineSpacingExtra="6sp"
+            android:tag="binding_4"                      
+            android:textColor="#242424"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:visibility="gone"
+                                                                                                             
+            app:fontFamily="sans-serif-light"
+            tools:text="Text areas are taller than text fields and wrap overflow text onto a new line. They are a fixed height and scroll bottom of the field." />
+
+    </LinearLayout>
+         

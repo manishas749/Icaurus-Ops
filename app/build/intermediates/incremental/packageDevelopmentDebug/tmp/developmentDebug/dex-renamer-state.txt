@@ -1,0 +1,22 @@
+#Wed Mar 06 15:58:51 IST 2024
+path.4=classes_1.dex
+path.3=classes_0.dex
+path.2=classes2.dex
+path.1=classes.dex
+path.6=classes_3.dex
+path.5=classes_2.dex
+path.0=classes.dex
+base.4=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeLibDexDevelopmentDebug\\classes_1.dex
+base.3=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeLibDexDevelopmentDebug\\classes_0.dex
+base.2=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeExtDexDevelopmentDebug\\classes2.dex
+base.1=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeProjectDexDevelopmentDebug\\classes.dex
+base.0=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeExtDexDevelopmentDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.6=classes7.dex
+renamed.5=classes6.dex
+base.6=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeLibDexDevelopmentDebug\\classes_3.dex
+renamed.4=classes5.dex
+base.5=C\:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\dex\\developmentDebug\\mergeLibDexDevelopmentDebug\\classes_2.dex

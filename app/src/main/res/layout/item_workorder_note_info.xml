@@ -1,0 +1,140 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.text.Html" />
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="item"
+            type="com.icarus.workorder.models.WorkOrderNoteInfoItems" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.workorder.viewmodels.WorkOrderDetailViewModel" />
+
+        <variable
+            name="position"
+            type="Integer" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="10sp"
+            android:padding="5dp"
+            android:text="@{(position == 0) ? String.format(@string/added_by_x, item.name) : String.format(@string/updated_by_x, item.name)}"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute"
+            tools:text="Added by: Joe Palmer" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="end"
+            android:lineSpacingExtra="10sp"
+            android:padding="5dp"
+            android:text="@{item.created}"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/title"
+            app:layout_constraintTop_toTopOf="@+id/title"
+            tools:ignore="UnusedAttribute"
+            tools:text="28 Mar, 2017 17:17:18" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="4sp"
+            android:padding="5dp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:bindContent="@{item}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            tools:ignore="UnusedAttribute"
+            tools:text="The Attchement with work order should get synced across to appliction" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="4sp"
+            android:padding="5dp"
+            android:text="@{item.workorderNotes}"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="@{TextUtils.isEmpty(item.workorderNotes) ? View.GONE : View.VISIBLE}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/content"
+            tools:ignore="UnusedAttribute"
+            tools:text="The Attchement with work order should get synced across to appliction" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#ececec"
+            android:padding="5dp"
+            android:visibility="@{item.getAttachments().size() > 0 ? View.VISIBLE : View.GONE}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/attachmentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="10sp"
+            android:padding="5dp"
+            android:text="@{String.format(@string/x_attachment, item.getAttachments().size())}"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="@{item.getAttachments().size() > 0 ? View.VISIBLE : View.GONE}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            tools:ignore="UnusedAttribute"
+            tools:text="1. Attachment" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:padding="5dp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="@{item.getAttachments().size() > 0 ? View.VISIBLE : View.GONE}"
+            app:bindRecyclerView="@{item.getAttachments()}"
+            app:layout_constraintTop_toBottomOf="@+id/attachmentCount"
+            app:viewModel="@{viewModel}"
+            tools:listitem="@layout/item_workorder_attachment"
+            tools:text="Screen Shot 2017-03-17 at 8.27.38.png" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

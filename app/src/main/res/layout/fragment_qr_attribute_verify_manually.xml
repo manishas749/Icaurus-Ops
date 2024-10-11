@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="header"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/verify_manual_horizontal_margin"
+                android:paddingRight="@dimen/verify_manual_horizontal_margin"
+                android:paddingBottom="57dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputRoomName"
+                    style="@style/FormsLightLabelIdle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/verify_manual_qr"
+                    android:hint="@{header}"
+                    app:errorEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/etRoomName"
+                        style="@style/MaterialLightSubhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="100" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtLabelRoom"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0383e7"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtInputRoomName"
+                    app:setHTML="@{String.format(@string/enter_the_text_after_room_on_the_qr_code(header))}" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputReason"
+                    style="@style/FormsLightLabelIdle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/verify_manual_qr_reason_top_margin"
+                    android:hint="@string/reason"
+                    app:helperText="@string/verifying_manually_reason_hint"
+                    app:helperTextEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtLabelRoom">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/etReason"
+                        style="@style/MaterialLightSubhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:maxLines="3"
+                        android:minLines="3" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <!--
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/txtReasonLabel"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/verifying_manually_reason_hint"
+                            android:textColor="#626262"
+                            android:textSize="12sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif-light"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtInputReason" />
+                -->
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSubmit"
+                    style="@style/ButtonTextLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/verify_manual_qr_btn_margin_top"
+                    android:background="@drawable/button_bg_green"
+                    android:gravity="center"
+                    android:text="@string/verify"
+                    android:textColor="@color/white"
+                    app:fontFamily="sans-serif-medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txtInputReason" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

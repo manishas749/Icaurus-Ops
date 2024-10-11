@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                 
+                       
+                                                   
+           
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/item_qr_log_report_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:tag="binding_1"               
+            app:fontFamily="sans-serif-medium"
+            tools:text="QR Code Verification " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            android:tag="binding_2"                
+            tools:text="CP-N1/N4-1B" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6sp"
+            android:textColor="#242424"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:layout_marginTop="3dp"
+            android:tag="binding_3"                         
+            app:fontFamily="sans-serif-medium"
+            android:text="@string/reason" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6sp"
+            android:textColor="#242424"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:tag="binding_4"             
+                                                          
+            app:fontFamily="sans-serif-light"
+            android:layout_marginBottom="22dp"
+            tools:text="Text areas are taller than text fields and wrap overflow text onto a new line. They are a fixed height and scroll bottom of the field." />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            android:tag="binding_5"                                              
+            tools:text="Verified By Joe Palmer on 26 Sep, 2019 14:30:20" />
+    </LinearLayout>
+         

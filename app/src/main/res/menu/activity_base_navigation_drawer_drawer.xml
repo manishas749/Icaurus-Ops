@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_all_checklist"
+            android:icon="@drawable/ic_all_checklist"
+            android:title="@string/all_checklist" />
+        <item
+            android:id="@+id/nav_my_assigned_checklist"
+            android:icon="@drawable/ic_my_assigned_checklist"
+            android:title="@string/my_assigned_checklist" />
+        <item
+            android:id="@+id/nav_my_department_checklist"
+            android:icon="@drawable/ic_department"
+            android:title="@string/my_department_checklist" />
+        <item
+            android:id="@+id/nav_cancelled_checklist"
+            android:icon="@drawable/ic_cross_cancelled"
+            android:title="@string/cancelled_checklist" />
+
+        <item
+            android:id="@+id/nav_completed_checklist"
+            android:icon="@mipmap/check_circle_outline"
+            android:title="@string/completed_checklist" />
+
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_workorder"
+            android:icon="@mipmap/workorder"
+            android:title="@string/workorder" />
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_change_location"
+            android:icon="@drawable/ic_location"
+            android:title="@string/change_location" />
+
+        <item
+            android:id="@+id/nav_genertate_qr_code"
+            android:icon="@drawable/ic_qr_code"
+            android:title="@string/generate_qr_code"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

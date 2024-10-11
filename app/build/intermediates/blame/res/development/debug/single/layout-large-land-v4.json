@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout-large-land-v4\\fragment_scan_qr_code_attribute.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout-large-land\\fragment_scan_qr_code_attribute.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout-large-land-v4\\step_execution_floating_menu.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout-large-land\\step_execution_floating_menu.xml"
+    }
+]

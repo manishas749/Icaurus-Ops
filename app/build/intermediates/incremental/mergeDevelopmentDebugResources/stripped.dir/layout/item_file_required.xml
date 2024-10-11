@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                           
+
+                 
+                       
+                            
+
+                 
+                               
+                                                    
+
+                 
+                            
+                                                                       
+
+                 
+                          
+                                                             
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/attribute_file_margin_bottom"
+        android:tag="layout/item_file_required_0"                   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <FrameLayout
+            android:id="@+id/imgContainer"
+            android:layout_width="96dp"
+            android:layout_height="76dp"
+            android:background="@drawable/ic_download_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_download" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:tag="binding_1"            />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/fileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="sans-serif"
+                                  
+            android:textColor="#737373"
+            android:textSize="@dimen/attributes_file_name_size"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toStartOf="@id/delete"
+            app:layout_constraintStart_toEndOf="@+id/imgContainer"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute"
+            tools:text="Machine_images part2.png"  android:tag="binding_2"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="@dimen/attribute_file_divider_margin_top"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/imgContainer"
+            app:layout_constraintEnd_toStartOf="@id/delete"
+            app:layout_constraintTop_toBottomOf="@+id/fileName" />
+
+        <FrameLayout
+            android:id="@+id/delete"
+            android:layout_width="@dimen/attribute_file_delete_icon_size"
+            android:layout_height="@dimen/attribute_file_delete_icon_size"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circular_border_circle_grey"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="14dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:tag="binding_3"                                                       
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_delete_black"
+                tools:visibility="visible" />
+        </FrameLayout>
+
+
+        <!--android:visibility="@{selectedFile.isDeletable() ? View.VISIBLE : View.GONE}"-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

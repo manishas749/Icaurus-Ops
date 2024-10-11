@@ -1,0 +1,197 @@
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.icarus.R" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="checklistType"
+            type="com.icarus.enums.ChecklistType" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.DashboardViewModel" />
+
+        <variable
+            name="items"
+            type="com.icarus.models.AllChecklistItems" />
+
+        <variable
+            name="position"
+            type="Integer" />
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingBottom="12dp"
+        android:layout_margin="5dp"
+        android:background="@{safeUnbox(items.checklistTypeId) == safeUnbox(checklistType.Emergency.getValue()) ? @drawable/emergency_background : @drawable/white_background}"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:onClick="@{() -> viewModel.onAllChecklistItemClick(items)}">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgFav"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:layout_marginTop="14.1dp"
+                android:layout_marginStart="19dp"
+                tools:visibility="visible"
+                tools:srcCompat="@mipmap/star"
+                android:layout_marginLeft="19dp"
+                android:onClick="@{() -> viewModel.onAddToFav(items, position)}"
+                android:scaleType="centerInside"
+                app:favImage="@{safeUnbox(items.isFavorite)}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/MaterialLightSubhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:text='@{items.title ?? "Getting checklist..."}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/imgFav"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgFav"
+                android:layout_marginTop="12dp"
+                app:setChecklistTitleColor = "@{items.getChecklistSyncStatus()}"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setEmergencyLabel="@{items.checklistTypeId}"
+                tools:text="Anurag is building this app for Ucodesoft company. This app is hvjhv, ,,b ,h v,h ,h h vh vh vh  jkbjk" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/buttons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="@+id/title"
+                app:layout_constraintStart_toStartOf="@id/title"
+                app:layout_constraintTop_toBottomOf="@+id/title">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/sq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:layout_marginTop="6dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:visibility="@{safeUnbox(items.isSequential())==1 ? View.VISIBLE : View.GONE}"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/sq_secuencial"
+                    tools:ignore="RtlSymmetry"
+                    tools:visibility="visible" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:layout_marginTop="6dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/white"
+                    android:visibility="@{safeUnbox(items.isApprovalRequired())==1 ? View.VISIBLE : View.GONE}"
+                    app:layout_constraintLeft_toRightOf="@+id/sq"
+                    app:layout_constraintStart_toEndOf="@+id/sq"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/ar_approval_required"
+                    tools:ignore="RtlSymmetry"
+                    tools:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:contentDescription="@null"
+                    android:visibility="@{safeUnbox(items.isPlaceholderExists())==1 ? View.VISIBLE : View.GONE}"
+                    app:layout_constraintLeft_toRightOf="@+id/ar"
+                    app:layout_constraintStart_toEndOf="@+id/ar"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/ph_placeholder"
+                    tools:visibility="visible" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/checklist_divider"
+                app:layout_constraintStart_toStartOf="@+id/title"
+                app:layout_constraintTop_toBottomOf="@+id/buttons" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toStartOf="@+id/title"
+                app:layout_constraintTop_toBottomOf="@id/divider"
+                app:srcCompat="@drawable/ic_department_checklist" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif"
+                android:text="@{TextUtils.isEmpty(items.getDepartmentName()) ? @string/all : items.getDepartmentName()}"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toStartOf="@id/txtModified"
+                app:layout_constraintStart_toEndOf="@id/imgDepartment"
+                app:layout_constraintTop_toBottomOf="@id/divider"
+                tools:text="Development Of Electricity" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtModified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif"
+                android:gravity="end"
+                android:text="@{items.getModified()}"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginRight="13dp"
+                android:layout_marginEnd="13dp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider"
+                tools:text="12 july, 2017" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

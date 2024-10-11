@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Network</string>
+
+    <string-array name="get_api_with_json_tag">
+        <item>client_logos.json</item>
+        <item>client_settings.json</item>
+        <item>departments.json</item>
+        <item>checklist_types.json</item>
+        <item>hazards.json</item>
+        <item>ppes.json</item>
+        <item>groups.json</item>
+        <item>item_types.json</item>
+        <item>workorder_statuses.json</item>
+        <item>workorder_billing_types.json</item>
+        <item>users.json</item>
+
+        <item>locations.json</item>
+        <item>rooms.json</item>
+        <item>equipments.json</item>
+        <item>location_departments.json</item>
+        <item>location_rooms.json</item>
+        <item>location_room_equipments.json</item>
+        <item>user_location_departments.json</item>
+        <item>checklists.json</item>
+
+        <item>checklist_titles.json</item>
+        <item>checklist_logos.json</item>
+        <item>checklist_locations.json</item>
+        <item>checklist_room_equipments.json</item>
+        <item>checklist_elements.json</item>
+        <item>associated_checklists.json</item>
+        <item>checklist_texts.json</item>
+        <item>steps.json</item>
+        <item>decisions.json</item>
+        <item>cautions.json</item>
+        <item>notes.json</item>
+        <item>warnings.json</item>
+        <item>caution_hazards.json</item>
+        <item>warning_hazards.json</item>
+        <item>note_hazards.json</item>
+        <item>step_attributes.json</item>
+        <item>step_result_functions.json</item>
+        <item>checklist_ppes.json</item>
+        <item>resource_links.json</item>
+        <item>resources.json</item>
+
+        <item>user_favorites.json</item>
+        <item>assigned_checklists.json</item>
+        <item>assigned_users.json</item>
+        <item>assigned_departments.json</item>
+        <item>workorders.json</item>
+        <item>workorder_attachments.json</item>
+        <item>workorder_notes.json</item>
+        <item>workorder_note_details.json</item>
+    </string-array>
+    <string-array name="get_assigned_api_with_json_tag">
+        <item>assigned_room_equipments.json</item>
+        <item>assigned_logos.json</item>
+        <item>assigned_checklist_pause_times.json</item>
+        <item>assigned_cautions.json</item>
+        <item>assigned_notes.json</item>
+        <item>assigned_warnings.json</item>
+        <item>assigned_decisions.json</item>
+        <item>assigned_steps.json</item>
+        <item>assigned_step_qas.json</item>
+        <item>assigned_step_results.json</item>
+        <item>assigned_step_skip_difer_reasons.json</item>
+        <item>assigned_step_resources.json</item>
+        <item>logs.json</item>
+    </string-array>
+    <string-array name="post_api_with_json_tag">
+        <item>user_favorites.json</item>
+        <item>assigned_checklists.json</item>
+        <item>assigned_cautions.json</item>
+        <item>assigned_decisions.json</item>
+        <item>assigned_logos.json</item>
+        <item>assigned_notes.json</item>
+        <item>assigned_steps.json</item>
+        <item>assigned_step_qas.json</item>
+        <item>assigned_step_results.json</item>
+        <item>assigned_users.json</item>
+        <item>assigned_warnings.json</item>
+        <item>assigned_checklist_pause_times.json</item>
+        <item>assigned_step_skip_difer_reasons.json</item>
+        <item>assigned_step_resources.json</item>
+        <item>assigned_room_equipments.json</item>
+        <item>logs.json</item>
+        <item>user_suggestions.json</item>
+        <item>user_suggestion_attachments.json</item>
+    </string-array>
+</resources>

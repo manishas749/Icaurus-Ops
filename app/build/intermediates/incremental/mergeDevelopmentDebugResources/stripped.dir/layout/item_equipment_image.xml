@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+                 
+                           
+                            
+
+                 
+                             
+                            
+
+                 
+                           
+                           
+
+                                                              
+           
+
+    <androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/img"
+        android:layout_width="@dimen/execution_ppe_hazard_icon_size"
+        android:layout_height="@dimen/execution_ppe_hazard_icon_size"
+        android:layout_margin="4dp"
+        app:srcCompat="@drawable/image_circle_grey"
+                              
+                                      
+                                  
+                                        
+        tools:ignore="ContentDescription"  android:tag="layout/item_equipment_image_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"/>
+         

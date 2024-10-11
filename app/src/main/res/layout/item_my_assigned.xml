@@ -1,0 +1,130 @@
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="checklistType"
+            type="com.icarus.enums.ChecklistType" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.DashboardViewModel" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.MyAssignedChecklistItems" />
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@{safeUnbox(item.checklistType) == safeUnbox(checklistType.Emergency.getValue()) ? @drawable/emergency_background : @drawable/white_background}"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.onMyAssignedChecklistItemClick(item)}"
+            android:paddingBottom="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/MaterialLightSubhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@{item.title}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setAssignedChecklistTitleColor="@{item.getChecklistSyncStatus()}"
+                app:setEmergencyLabel="@{item.checklistType}"
+                tools:text="Anurag is devloping this app from scratch.Anurag is devloping this app from scratch. Anurag is devloping this app from scratch.He is doing very good " />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/roomAssets"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="9sp"
+                android:text="@{item.roomEquipment}"
+                android:textColor="@color/checklist_sub_head"
+                android:textSize="15sp"
+                android:visibility="@{TextUtils.isEmpty(item.roomEquipment) ? View.INVISIBLE : View.VISIBLE}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                tools:text="Room/Assets" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/roomAssets" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/dueDaysTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="11sp"
+                android:textSize="13sp"
+                android:visibility="@{TextUtils.isEmpty(item.dueDays) ? View.GONE : View.VISIBLE}"
+                app:dueDate="@{item.dueDays}"
+                app:layout_constraintEnd_toStartOf="@+id/newTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                app:setDueDateColor="@{item.getDueStatus()}"
+                tools:text="Due was 10 days" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/newTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="10sp"
+                android:text="@{item.checklistStatus}"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                app:roomEquipmentBackground="@{item.checklistStatus}"
+                tools:text="NEW"
+                tools:visibility="visible" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

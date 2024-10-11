@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                           
+
+                 
+                            
+                                                                  
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/widget_gallery_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/uploadView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/file_upload_background"
+            app:drawableTopCompat="@drawable/ic_backup"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:tag="binding_1"                          
+            android:padding="20dp"
+            android:text="@string/upload_file"
+            android:textColor="#636363"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/galleryRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="8dp"
+            android:tag="binding_2"                                                               
+                                                                  
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uploadView"
+            tools:listitem="@layout/item_attachment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

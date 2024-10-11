@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                       
+                                                              
+
+                 
+                           
+                             
+
+                                           
+
+                 
+                              
+                                                                             
+
+                 
+                                      
+                                                                           
+
+                                                
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/rectangle_gray_box"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="11dp" android:tag="layout/item_all_capture_data_attributes_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtSequenceNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:tag="binding_1"                                                                          
+            android:textColor="@color/capture_data_text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1. " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:tag="binding_2"     
+            android:textColor="@color/capture_data_text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txtSequenceNo"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Any alarm are running or not?" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:lineSpacingExtra="12sp"
+            android:tag="binding_3"           
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="italic"
+                                                                                                  
+            app:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/txtLabel"
+            app:layout_constraintTop_toBottomOf="@+id/txtLabel"
+            tools:text="(Equipment name should be equipment code)" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:tag="binding_4"             
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="normal"
+                                                                                          
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtLabel"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescription"
+            tools:text="No"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtCapturedBy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="start"
+            android:lineSpacingExtra="12sp"
+            android:tag="binding_5"                                                   
+            android:textColor="@color/capture_data_text_color"
+            android:textSize="12sp"
+            android:textStyle="normal"
+                                                                                          
+            app:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toStartOf="@id/txtCapturedDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue"
+            tools:text="Captured by Joe Palmer"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtCapturedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:lineSpacingExtra="12sp"
+            android:tag="binding_6"          
+            android:textColor="@color/capture_data_text_color"
+            android:textSize="12sp"
+            android:textStyle="normal"
+                                                                                           
+            app:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtValue"
+            tools:text="26 Sep, 2019 16:49:40"
+            tools:visibility="visible" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="binding_7"                                         
+            app:layout_constraintTop_toBottomOf="@+id/txtCapturedBy"
+                                                    
+            tools:listitem="@layout/item_all_captured_data_files"
+            tools:visibility="visible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="binding_8"                                       
+            app:layout_constraintTop_toBottomOf="@+id/txtCapturedBy"
+                                                            
+            tools:listitem="@layout/item_all_capture_data_qr_attributes"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

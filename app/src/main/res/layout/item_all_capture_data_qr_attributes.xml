@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.ElementAttributesItems" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="@{item.getQRLabelName()}"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:fontFamily="sans-serif"
+            tools:text="CP-N1/N4-1B " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:text="Verified"
+            android:textColor="#007d12"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:fontFamily="sans-serif" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/reason"
+            android:textColor="#242424"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:visibility="@{item.isQRReasonVisible()}"
+            app:fontFamily="sans-serif-medium" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:lineSpacingExtra="6sp"
+            android:text="@{item.getQRReason()}"
+            android:textColor="#242424"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:visibility="@{item.isQRReasonVisible()}"
+            app:fontFamily="sans-serif-light"
+            tools:text="Text areas are taller than text fields and wrap overflow text onto a new line. They are a fixed height and scroll bottom of the field." />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtCapturedBy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="12sp"
+                android:text="@{String.format(@string/capture_by_label, item.capturedBy)}"
+                android:textColor="#212121"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:fontFamily="sans-serif-light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="wrap"
+                app:layout_constraintWidth_percent="0.6"
+                tools:text="Captured by Joe Palmer" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:lineSpacingExtra="12sp"
+                android:text="@{item.capturedAt}"
+                android:textColor="#212121"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:fontFamily="sans-serif-light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txtCapturedBy"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="wrap"
+                app:layout_constraintWidth_percent="0.4"
+                tools:text="26 Sep, 2019 16:49:40 " />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>

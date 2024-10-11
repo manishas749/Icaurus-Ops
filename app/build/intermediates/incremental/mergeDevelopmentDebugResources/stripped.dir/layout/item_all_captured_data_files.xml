@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                                           
+
+                 
+                            
+                                                                   
+
+                 
+                       
+                                                              
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:tag="layout/item_all_captured_data_files_0"     xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgCaptured"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="#d8d8d8"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:tag="binding_1"              />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_2"                                               
+            app:layout_constraintBottom_toBottomOf="@+id/imgCaptured"
+            app:layout_constraintEnd_toEndOf="@+id/imgCaptured"
+            app:layout_constraintStart_toStartOf="@+id/imgCaptured"
+            app:layout_constraintTop_toTopOf="@+id/imgCaptured"
+                                                
+            app:srcCompat="@drawable/ic_download" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgCaptured"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6sp"
+                android:tag="binding_3"             
+                                                                                                                               
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+
+                app:fontFamily="sans-serif"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Screen Shot 2017-03-18 at 8.27.38.png" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtCapturedBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="12sp"
+                android:tag="binding_4"                                                   
+                android:textColor="@color/capture_data_text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:fontFamily="sans-serif-light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtValue"
+                tools:text="Captured by Joe Palmer" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtCapturedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="12sp"
+                android:tag="binding_5"          
+                android:textColor="@color/capture_data_text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:fontFamily="sans-serif-light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtCapturedBy"
+                tools:text="26 Sep, 2019 16:49:40" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

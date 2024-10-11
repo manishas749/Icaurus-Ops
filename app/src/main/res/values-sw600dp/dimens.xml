@@ -1,0 +1,46 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="execution_ppe_hazard_icon_size">55dp</dimen>
+    <dimen name="element_list_ppe_hazard_icon_size">36dp</dimen>
+    <dimen name="slide_button_width">320dp</dimen>
+    <dimen name="placeholder_bottom_margin">30dp</dimen>
+    <dimen name="sync_logo_width">140dp</dimen>
+    <dimen name="sync_logo_height">160dp</dimen>
+    <dimen name="text_size_14">16sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">20sp</dimen>
+    <dimen name="capture_data_element_sequence_margin_start">25dp</dimen>
+    <dimen name="capture_data_element_sequence_margin_top">18dp</dimen>
+    <dimen name="capture_data_element_status_margin_top">25dp</dimen>
+    <dimen name="capture_data_element_attribute_list_margin_top">33dp</dimen>
+    <dimen name="file_capture_button_width">318dp</dimen>
+    <dimen name="file_capture_button_height">148dp</dimen>
+    <dimen name="attribute_margin_top">60dp</dimen>
+    <dimen name="element_detail_margin_top">31dp</dimen>
+    <dimen name="element_detail_equipment_margin_start">59dp</dimen>
+    <dimen name="element_detail_equipment_margin_bottom">26dp</dimen>
+    <dimen name="element_detail_embedded_image_height">382dp</dimen>
+    <dimen name="element_detail_embedded_image_counter_margin_top">14dp</dimen>
+    <dimen name="embedded_image_count_text_size">20sp</dimen>
+    <dimen name="element_detail_pager_dots_margin_top">27dp</dimen>
+    <dimen name="element_detail_pager_dots_margin_bottom">29dp</dimen>
+    <dimen name="element_detail_data_container_margin_top">35dp</dimen>
+    <dimen name="element_detail_attribute_right_margin">100dp</dimen>
+    <dimen name="attribute_label_size">20sp</dimen>
+    <dimen name="attribute_desc_size">14sp</dimen>
+    <dimen name="attribute_desc_margin_top">0dp</dimen>
+    <dimen name="attribute_input_margin_top">33dp</dimen>
+    <dimen name="attribute_add_file_margin_top">28dp</dimen>
+    <dimen name="attribute_file_divider">351dp</dimen>
+    <dimen name="attribute_file_delete_icon_size">44dp</dimen>
+    <dimen name="attribute_file_margin_bottom">20dp</dimen>
+    <dimen name="attributes_file_name_size">16sp</dimen>
+    <dimen name="max_height_embedded_image">220dp</dimen>
+    <dimen name="verify_manual_horizontal_margin">102dp</dimen>
+    <dimen name="verify_manual_qr">53dp</dimen>
+    <dimen name="verify_manual_qr_reason_top_margin">45dp</dimen>
+    <dimen name="verify_manual_qr_btn_margin_top">43dp</dimen>
+</resources>

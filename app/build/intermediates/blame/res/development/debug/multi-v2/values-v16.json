@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\UCodeSoft\\AndroidStudioProjects\\FirestorePagination\\.gradle\\caches\\transforms-2\\files-2.1\\3042a458478d07483ca415a089453263\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\UCodeSoft\\AndroidStudioProjects\\FirestorePagination\\.gradle\\caches\\transforms-2\\files-2.1\\e83e390a2e8789dc7f893b9ada3caf47\\core-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

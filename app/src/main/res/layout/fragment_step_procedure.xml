@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.icarus.enums.ChecklistElementType" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.ChecklistDetailItems" />
+
+        <variable
+            name="constants"
+            type="com.icarus.constants.Constants" />
+
+        <variable
+            name="resourceEntity"
+            type="com.icarus.entities.ResourceEntity" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.ChecklistExecutionViewModel" />
+
+        <variable
+            name="currentEmbeddedImageCount"
+            type="Integer" />
+
+        <variable
+            name="totalEmbeddedImageCount"
+            type="Integer" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.icarus.customviews.VerticalScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/element_detail_margin_top">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewEquipments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_detail_equipment_margin_start"
+                    android:layout_marginRight="@dimen/element_detail_equipment_margin_start"
+                    android:layout_marginBottom="@dimen/element_detail_equipment_margin_bottom" />
+
+                <RelativeLayout
+                    android:id="@+id/embeddedImageContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPagerEmbeddedImages"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/element_detail_embedded_image_height"
+                        android:background="@color/grey_circle" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/element_detail_embedded_image_counter_margin_top"
+                        android:layout_marginEnd="@dimen/element_detail_embedded_image_counter_margin_top"
+                        android:layout_marginRight="@dimen/element_detail_embedded_image_counter_margin_top"
+                        android:background="@drawable/count_indicator"
+                        android:gravity="center_horizontal"
+                        android:paddingStart="14dp"
+                        android:paddingLeft="14dp"
+                        android:paddingEnd="14dp"
+                        android:paddingRight="14dp"
+                        android:text="@{String.format(@string/mark_complete_count(currentEmbeddedImageCount, totalEmbeddedImageCount))}"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/embedded_image_count_text_size"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        tools:text="2/3" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/pagerDots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/element_detail_pager_dots_margin_top"
+                    android:layout_marginBottom="@dimen/element_detail_pager_dots_margin_bottom"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/stepDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:visibility="@{item.isStep() ? View.VISIBLE : View.GONE}">
+
+                    <com.icarus.customviews.DashedLine
+                        android:id="@+id/dashLine"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        app:layout_constraintStart_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/label"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:gravity="start|center_vertical"
+                        android:lineSpacingExtra="4sp"
+                        android:paddingEnd="8dp"
+                        android:paddingRight="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checklist_detail_text_size"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_max="wrap"
+                        app:layout_constraintWidth_percent="0.4"
+                        app:setCompactHtml="@{item.title}"
+                        tools:text="Both Gates" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/desc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:gravity="start|center_vertical"
+                        android:lineSpacingExtra="4sp"
+                        android:paddingStart="8dp"
+                        android:paddingLeft="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checklist_detail_text_size"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_max="wrap"
+                        app:layout_constraintWidth_percent="0.4"
+                        app:setCompactHtml="@{item.description}"
+                        tools:text="Verify" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/checklist_detail_text_size"
+                    android:visibility="@{item.isStep() ? View.GONE : View.VISIBLE}"
+                    app:fontFamily="sans-serif"
+                    app:setCompactHtml="@{item.title}"
+                    tools:text="Item Detail"
+                    tools:visibility="visible" />
+
+
+                <Button
+                    android:id="@+id/recordDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/element_detail_record_data_margin_top"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_bg_green"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:letterSpacing="0.04"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="@string/record_details"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="UnusedAttribute" />
+
+                <LinearLayout
+                    android:id="@+id/containerAttributes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/element_detail_data_container_margin_top"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/checklist_divider" />
+                </LinearLayout>
+
+                <com.icarus.customviews.SlideButton
+                    android:id="@+id/btnSlide"
+                    android:layout_width="@dimen/slide_button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    app:stu_label="@string/slide_to_complete"
+                    app:stu_label_color="@color/black"
+                    app:stu_thumbDrawable="@mipmap/left_arrow_button"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+        </com.icarus.customviews.VerticalScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

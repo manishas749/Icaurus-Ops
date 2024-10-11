@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_placeholder_captured_values.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_placeholder_captured_values.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_qa_verify.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_qa_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_icons.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_icons.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_checklist_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_checklist_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_work_order_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_work_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_checklist_view_report_element.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_checklist_view_report_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_pager.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_assignment_history.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_assignment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_checklist_report.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_checklist_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_decision_execution.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_decision_execution.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_checklist_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_checklist_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_my_assigned.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_my_assigned.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_capture_data_elements_with_attributes.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_capture_data_elements_with_attributes.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_reference_title.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_reference_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\dialog_syncing.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\dialog_syncing.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_scan_qr_code_attribute.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_scan_qr_code_attribute.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_location_selection.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_location_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_step_procedure.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_step_procedure.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\view_item_workorder_with_checkbox.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\view_item_workorder_with_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\app_bar_base_navigation_drawer.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\app_bar_base_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_barcode_scanner.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_department_checklist.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_department_checklist.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_qr_scan_attribute_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_qr_scan_attribute_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\step_execution_floating_menu.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\step_execution_floating_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_workorder_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_workorder_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\popup_list.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\popup_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_search_layout.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_search_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\pop_up_verify_room_asset.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\pop_up_verify_room_asset.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_qr_scan_attribute.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_qr_scan_attribute.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_capture_data_qr_attributes.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_capture_data_qr_attributes.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\popup_with_edit_box.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\popup_with_edit_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_qr_attribute_verify_manually.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_qr_attribute_verify_manually.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_attachment.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_checklist_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_checklist_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_qr_log_report.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_qr_log_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_equipment_image.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_equipment_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_capture_data_attributes.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_capture_data_attributes.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_checklist_execution.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_checklist_execution.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_pager_image_adapter.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_pager_image_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_workorder_attachment.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_workorder_attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_assigned_checklist_note.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_assigned_checklist_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_view_more.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_view_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_all_capture_data.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_all_capture_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\bottom_sheet_sort.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\bottom_sheet_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\nav_header_base_navigation_drawer.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\nav_header_base_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_record_detail.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_record_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_procedure_record_image.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_procedure_record_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_workorder.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_workorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\widget_gallery.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\widget_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_workorder_detail_info.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_workorder_detail_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_search_suggestions.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_search_suggestions.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_workorder_note_info.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_workorder_note_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\bottom_sheet_workorder_sort.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\bottom_sheet_workorder_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\bottom_sheet_filter.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\bottom_sheet_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_workorder.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_workorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\popup_suggestion.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\popup_suggestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_equipments.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_equipments.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_ncwtr_execution.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_ncwtr_execution.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_add_note.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_add_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_pending_elements.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_pending_elements.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\view_item_with_checkbox.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\view_item_with_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_checklist.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_checklist.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_embedded_image.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_embedded_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_view_report_note.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_view_report_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\popup_references.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\popup_references.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_execution_bottom_bar.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_execution_bottom_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_work_order_complete.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_work_order_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_checklist.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_checklist.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\bottom_sheet_workorder_filter.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\bottom_sheet_workorder_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_assign_checklist.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_assign_checklist.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_view_report_log.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_view_report_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_file_required.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_file_required.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_checklist_detail_listing.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_checklist_detail_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\fragment_workorder.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\fragment_workorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_capture_data_attributes_shimmer.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_capture_data_attributes_shimmer.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_pause_history.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_pause_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_terms_and_conditions.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_terms_and_conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_reference_resource_title.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_reference_resource_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_work_order_create.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_work_order_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_cancelled_completed.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_cancelled_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_search_suggestion.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_search_suggestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\activity_webview.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\content_terms_and_conditions.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\content_terms_and_conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\item_all_captured_data_files.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\item_all_captured_data_files.xml"
+    },
+    {
+        "merged": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\build\\intermediates\\incremental\\mergeDevelopmentDebugResources\\stripped.dir\\layout\\content_location_selection.xml",
+        "source": "C:\\Users\\UCodeSoft\\Desktop\\icarus\\kd_worker_kotlin_conversion\\app\\src\\main\\res\\layout\\content_location_selection.xml"
+    }
+]

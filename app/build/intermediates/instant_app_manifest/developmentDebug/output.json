@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.icarusplus.icarus",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0.0",
+        "outputFile": "app-development-debug.apk",
+        "fullName": "developmentDebug",
+        "baseName": "development-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.icarusplus.icarus",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

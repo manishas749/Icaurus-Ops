@@ -1,0 +1,132 @@
+<layout>
+
+    <data>
+
+        <import type="android.text.Html" />
+
+        <import type="android.view.View" />
+
+        <import type="com.icarus.enums.ChecklistElementType" />
+
+        <variable
+            name="item"
+            type="com.icarus.models.ChecklistElementItem" />
+
+        <variable
+            name="position"
+            type="Integer" />
+
+        <import type="com.icarus.constants.Constants" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.ChecklistDetailListingViewModel" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/emergency_background"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="17dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image"
+                android:layout_width="0dp"
+                android:layout_height="216dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:maxHeight="164dp"
+                android:scaleType="centerInside"
+                android:visibility="@{item.isResource() ? View.VISIBLE : View.GONE}"
+                app:showEmbeddedImage="@{item}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_default_image_element_list"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/sequenceNumber"
+                style="@style/MaterialLightSubhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="13dp"
+                android:text="@{item.getSequenceNo()}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image"
+                tools:text="T1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginRight="17dp"
+                android:contentDescription="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image"
+                app:setAcknowledged="@{item}"
+                tools:src="@drawable/ic_tick"
+                tools:visibility="visible" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerIcons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="3dp"
+                app:hazards="@{item.getHazardsIconList()}"
+                app:itemUUID="@{item.getItemUuid()}"
+                app:layout_constraintTop_toBottomOf="@+id/sequenceNumber"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:ppe="@{item.getPPEsIconList()}"
+                tools:visibility="visible"
+                tools:listitem="@layout/item_equipments" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4sp"
+                android:maxLines="2"
+                android:textColor="@color/checklist_title_color"
+                android:textSize="21sp"
+                android:textStyle="normal"
+                android:visibility="@{item.isResource() ? View.GONE :View.VISIBLE}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerIcons"
+                app:setCompactHtml="@{item.isStepProcedureDataStep() ? item.title : item.description}"
+                tools:text="Section 01  MOP Information MOP Approval Date: 2015-12-01 MOP Review By Date…" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

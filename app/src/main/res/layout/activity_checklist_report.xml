@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.icarus.base.BaseApplication" />
+
+        <import type="android.text.Html" />
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.ChecklistReportViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_weight="1"
+                    android:background="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:tabIndicatorColor="@android:color/white"
+                    app:title="@string/view_report" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="9dp">
+
+                        <TextView
+                            android:id="@+id/txtStartBy"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:lineSpacingExtra="10sp"
+                            android:text="@{Html.fromHtml(viewModel.getStartByTitle())}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif-medium"
+                            app:layout_constraintEnd_toStartOf="@id/guideline"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="Started Bybvccbvcbvcbvcvbcdgf kkkkddgfdgfd" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline"
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.5" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtCompletedBy"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:lineSpacingExtra="10sp"
+                            android:text="@{Html.fromHtml(viewModel.getCancelledCompletedTitle())}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif-medium"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/guideline"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="Completed by" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_report"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="10sp"
+                        android:text="@string/assignment_member"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium"
+                        tools:text="Assignment Member(s)" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="13dp"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@{viewModel.getAssignees()}"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif"
+                        tools:text="Due Date: Wed, May 4th
+2016, 15:25" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_report"
+                        android:visibility='@{viewModel.getSummary().getRoom().equalsIgnoreCase("None") &amp;&amp; viewModel.getSummary().getEquipment().equalsIgnoreCase("None") ? View.GONE : View.VISIBLE}' />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="10sp"
+                        android:text="@{String.format(@string/room_and_asset_x_x, BaseApplication.preferenceManager.getRoomName(), BaseApplication.preferenceManager.getAssetName())}"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:visibility='@{viewModel.getSummary().getRoom().equalsIgnoreCase("None") &amp;&amp; viewModel.getSummary().getEquipment().equalsIgnoreCase("None") ? View.GONE : View.VISIBLE}'
+                        app:fontFamily="sans-serif-medium"
+                        tools:text="@string/room_and_asset" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:visibility='@{viewModel.getSummary().getRoom().equalsIgnoreCase("None") &amp;&amp; viewModel.getSummary().getEquipment().equalsIgnoreCase("None") ? View.GONE : View.VISIBLE}'>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtRoomHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="@{BaseApplication.preferenceManager.getRoomName()}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif-medium"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="@string/room" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="@{viewModel.getSummary().getRoom()}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif"
+                            app:layout_constraintStart_toEndOf="@id/txtRoomHeader"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="Room" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtAssetsHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginBottom="13dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="@{BaseApplication.preferenceManager.getAssetName()}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif-medium"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtRoomHeader"
+                            tools:text="@string/asset" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtAssets"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="@{viewModel.getSummary().getEquipment()}"
+                            android:textColor="#212121"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            app:fontFamily="sans-serif"
+                            app:layout_constraintStart_toEndOf="@id/txtAssetsHeader"
+                            app:layout_constraintTop_toBottomOf="@+id/txtRoomHeader"
+                            tools:text="Room" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_report" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="10sp"
+                        android:text="@string/assignment_history"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvAssignmentHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        app:setDecoratorAdapter="@{viewModel.getAssignmentHistoryAdapter()}"
+                        tools:listitem="@layout/item_assignment_history" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_report" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="10sp"
+                        android:text="@string/pause_history"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:visibility="@{viewModel.getPauseHistoryAdapter()!=null &amp;&amp; viewModel.getPauseHistoryAdapter().getItemCount() > 0 ? View.VISIBLE : View.GONE}"
+                        app:fontFamily="sans-serif-medium" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvPauseHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:visibility="@{viewModel.getPauseHistoryAdapter()!=null &amp;&amp; viewModel.getPauseHistoryAdapter().getItemCount() > 0 ? View.VISIBLE : View.GONE}"
+                        app:setDecoratorAdapter="@{viewModel.getPauseHistoryAdapter()}"
+                        tools:listitem="@layout/item_pause_history" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_report"
+                        android:visibility="@{viewModel.getPauseHistoryAdapter()!=null &amp;&amp; viewModel.getPauseHistoryAdapter().getItemCount() > 0 ? View.VISIBLE : View.GONE}" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvElements"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:setDecoratorAdapter="@{viewModel.getAdapter()}"
+                        tools:listitem="@layout/item_checklist_view_report_element" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtNotesHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="10sp"
+                        android:text="@string/notes"
+                        android:textColor="#212121"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        app:fontFamily="sans-serif-medium"
+                        tools:text="Notes" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvNotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/rectangle_gray_box"
+                        app:setDecoratorAdapter="@{viewModel.getNotesAdapter()}"
+                        tools:listitem="@layout/item_view_report_note" />
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+        <ProgressBar
+            style="@style/PrimaryProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="@{viewModel.isLoading ? View.VISIBLE : View.GONE}"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+</layout>

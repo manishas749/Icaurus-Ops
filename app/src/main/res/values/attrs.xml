@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme">
+        <!-- Default Spinner style. -->
+        <attr name="spinnerStyle" format="reference"/>
+        <!-- Default dropdown Spinner style. -->
+        <attr name="dropDownSpinnerStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="StuButton">
+        <attr name="stu_label" format="string"/>
+        <attr name="stu_thumbDrawable" format="reference"/>
+        <attr name="stu_background" format="reference"/>
+        <attr name="stu_label_color" format="reference"/>
+        <attr name="isButtonEnabled" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="widgets">
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="adapter"
+            type="com.icarus.adapters.ReferencesAdapter" />
+
+        <variable
+            name="linksAdapter"
+            type="com.icarus.adapters.ReferenceLinksAdapter" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/references"
+                android:textColor="@color/title_text_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="true"
+                android:padding="5dp"
+                android:visibility="gone"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintHeight_max="300dp"
+                tools:visibility="visible"
+                app:setAdapter="@{adapter}" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewLinks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="true"
+                android:padding="5dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintHeight_max="300dp"
+                app:setAdapter="@{linksAdapter}" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

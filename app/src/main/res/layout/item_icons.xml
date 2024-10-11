@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="fileName"
+            type="String" />
+
+        <variable
+            name="folderName"
+            type="String" />
+
+        <variable
+            name="itemUUID"
+            type="String" />
+
+        <import type="com.icarus.util.ImageLoader.ImageType"/>
+    </data>
+
+    <androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/img"
+        android:layout_width="@dimen/element_list_ppe_hazard_icon_size"
+        android:layout_height="@dimen/element_list_ppe_hazard_icon_size"
+        android:layout_margin="6dp"
+        android:background="@drawable/image_circle_grey"
+        app:folderName="@{folderName}"
+        app:itemUUID="@{itemUUID}"
+        app:imageType="@{ImageType.PPE}"
+        app:name="@{fileName}"
+        tools:ignore="ContentDescription" />
+</layout>

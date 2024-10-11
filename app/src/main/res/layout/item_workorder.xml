@@ -1,0 +1,157 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="viewModel"
+            type="com.icarus.viewmodels.DashboardViewModel" />
+
+        <variable
+            name="item"
+            type="com.icarus.workorder.models.WorkOrderItems" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/emergency_background"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="3dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="23dp"
+            android:paddingLeft="23dp"
+            android:paddingBottom="7dp"
+            android:paddingEnd="16dp"
+            android:paddingRight="16dp"
+            android:onClick="@{() -> viewModel.onWorkorderItemClick(item)}">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/workorderId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="16dp"
+                android:text="@{item.workorderId!=null &amp;&amp; safeUnbox(item.workorderId) > 0 ? String.format(@string/workorder_id_x, String.valueOf(item.workorderId)) : @string/workorder_id_no_value}"
+                android:textColor="#242424"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UnusedAttribute"
+                tools:text="Work Order ID: 67" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/not_synchronized"
+                android:textColor="#adadad"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="normal"
+                android:visibility="@{item.workorderId!=null  &amp;&amp; safeUnbox(item.workorderId) > 0  ? View.GONE : View.VISIBLE}"
+                app:layout_constraintStart_toEndOf="@+id/workorderId"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/MaterialLightSubhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@{item.title}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/workorderId"
+                tools:text="SN-MOP-06_09_03_01-Fuel Filters and Water Separators-Fuel..." />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/assignedTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@{item.assignee}"
+                android:textColor="#a2a2a2"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                tools:ignore="UnusedAttribute"
+                tools:text="Department" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="end"
+                android:textColor="#a4a4a4"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/assignedTo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/assignedTo"
+                app:workOrderPriority="@{item.workorderPriorityId}"
+                tools:ignore="UnusedAttribute"
+                tools:text="Low" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/assignedTo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/dueDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="11sp"
+                android:textSize="13sp"
+                android:visibility="@{TextUtils.isEmpty(item.dueDate) ? View.GONE : View.VISIBLE}"
+                app:dueDate="@{item.dueDays}"
+                app:layout_constraintBottom_toBottomOf="@+id/newTitle"
+                app:layout_constraintEnd_toStartOf="@+id/newTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/newTitle"
+                tools:text="Due in 10 days" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/newTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/new_background"
+                android:text="@{item.status}"
+                android:textColor="@color/new_title_text_color"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:lineSpacingExtra="0sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                tools:text="New"
+                tools:visibility="visible" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
